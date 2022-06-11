@@ -39,6 +39,17 @@ nav > img {
     margin:  20px 15px 12px 12px;
 }
 
+
+#google-menu-icon {
+    height: 20px;
+    margin-left: 10px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    display: none;
+}
+
+
 button {
    height: 37px;
    margin-left: 6px;
@@ -97,6 +108,7 @@ input {
      top: 232px;
 }
 
+
 #search-voice-icon-img {
     position: absolute;
      max-width: 100%;
@@ -104,6 +116,7 @@ input {
      right: 425px;
      top: 232px;
 }
+
 
 
 .search-button {
@@ -144,4 +157,50 @@ span {
    span:hover {
      text-decoration: underline;
      cursor: pointer;
+   }
+
+   /* mobile responsiveness*/
+   @media (min-width: 360px) and (max-width: 640px) {
+     #google-logo-container {
+         margin-top: 70px;
+     }
+     #input-div {
+        margin-bottom: 10px;
+     }
+
+     #typed {
+        width: 75%;
+        position: absolute;
+        top: 260px;
+        right: 40px;
+     }
+ 
+     #nigerian-languages {
+        display: flex; 
+        font-size: 13px;                                     
+
+    }
+
+    #first-div {
+        flex-direction: column;
+        
+    }
+
+    input {
+        height: 30px;
+    }
+
+    #search-voice-icon-img {
+        right: 48px;
+        top: 267px;
+    }
+
+    #search-icon-img {
+        top: 267px;
+        right: 285px;
+    }
+
+    #google-menu-icon  {
+      display: block;
+    }
    }
