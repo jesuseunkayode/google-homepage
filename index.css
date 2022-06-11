@@ -159,6 +159,7 @@ span {
      cursor: pointer;
    }
 
+
    /* mobile responsiveness*/
    @media (min-width: 360px) and (max-width: 640px) {
      #google-logo-container {
@@ -181,9 +182,14 @@ span {
 
     }
 
-    #first-div {
+    #footer-div {
+        position: absolute;
+        bottom: 75px;
         flex-direction: column;
-        
+        font-size: 12px;
+        margin-top: 50px;
+        justify-content: space-evenly;
+        box-sizing: border-box;
     }
 
     input {
@@ -203,4 +209,21 @@ span {
     #google-menu-icon  {
       display: block;
     }
+
+     span {
+        margin-right: 10px;
+        margin-left: 18px;
+     }
+
+     #second-div {
+        position: absolute;
+        right: 10px;
+        bottom: -20px;
+     }
+
+     #jesuseun-div {
+         position: absolute;
+         bottom: -20px;
+         left: 15px;
+     }
    }
